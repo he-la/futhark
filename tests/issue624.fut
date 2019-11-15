@@ -7,7 +7,7 @@ module type m = {
 }
 
 module m: m = {
-    type t = []f32
+    type t = [1]f32
     let r (t: *t): *t = t
 }
 

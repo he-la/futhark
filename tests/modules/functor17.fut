@@ -10,6 +10,6 @@ module PM(P: {type r}) = {
   let f [n] (r: P.r) (a: [n]t) = (r,a)
 }
 
-module PMI = PM {type r = []f64}
+module PMI = PM {type r = [2]f64}
 
 let main = PMI.f [1.0,2.0] [1]
