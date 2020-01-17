@@ -35,6 +35,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
         val sum [n]: [n]t -> t
 
+  * Type abbreviations declared with `type` may no longer contain
+    functions or anonymous sizes in their definition.  Use `type^` for
+    these cases.
+
 ### Fixed
 
   * Work around (probable) AMD OpenCL compiler bug for
